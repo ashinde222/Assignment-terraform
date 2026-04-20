@@ -9,8 +9,7 @@ terraform {
 
 provider "aws" {
   access_key = var.acc
-  secret_key = var.se
-
+  secret_key = var.sec
 	region	=	var.reg
 
 }
