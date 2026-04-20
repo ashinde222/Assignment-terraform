@@ -98,7 +98,6 @@ resource "aws_instance" "httpd" {
 			systemctl enable httpd
 	echo "<h1>Welcome Ajay! Terraform HTTPD Server is Working </h1>" > /var/www/html/index.html 
 	EOF
-
 	tags = {
 		Name = "httpd_server"
 	}
